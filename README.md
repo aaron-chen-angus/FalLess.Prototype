@@ -495,17 +495,17 @@ In **Settings → Pages → Custom domain**, enter a domain you own (e.g. `falle
 
 ## 10. References
 
-1. **Petropoulou, E., Skelton, D. A., & Finlayson, J. (2026).** Predicting Injuries in Adults With Intellectual Disabilities in Supported Living: Development and Validation of Risk Assessment Tools. *Journal of Applied Research in Intellectual Disabilities, 39*(3), e70253. https://doi.org/10.1111/jar.70253
+1. Petropoulou, E., Skelton, D. A., & Finlayson, J. (2026). Predicting Injuries in Adults With Intellectual Disabilities in Supported Living: Development and Validation of Risk Assessment Tools. *Journal of Applied Research in Intellectual Disabilities, 39*(3), e70253. https://doi.org/10.1111/jar.70253
 
-2. Systematic review of fall interventions in community-dwelling adults with intellectual disability (2023) — establishing the absence of validated fall-risk tools for this population.
+2. Lalor, A. et al. Interventions to reduce falls in community-dwelling adults with intellectual disability: a systematic review. Journal of Intellectual Disability Research (2023) doi:10.1111/jir.13066. Available from: https://onlinelibrary.wiley.com/doi/full/10.1111/jir.13066
 
-3. Meta-analyses of exergaming randomised controlled trials in older adults — association with reduced fall rate and improved adherence.
+3. Eost-Telling, C., McGarrigle, L., Shi, C., Money, A., Yang, Y., Lazo Green, K., Ahmed, S., Christie, R., Aminu, A., Delbaere, K., de Bruin, E. D., Stanmore, E., & Todd, C. (2026). Exergaming Interventions for Preventing Falls and Injurious Falls in Older People: Systematic Review and Meta-Analysis of Randomized Controlled Trials. JMIR aging, 9, e89807. https://doi.org/10.2196/89807
 
-4. Pilot study of gamified exercise in adults with intellectual disability — functional gains, reduced Tinetti fall risk, improved executive function, high adherence.
+4. Turgeon, S., MacKenzie, A., Batcho, C. S., & D'Amour, J. (2024). Making physical activity fun and accessible to adults with intellectual disabilities: A pilot study of a gamification intervention. Journal of Applied Research in Intellectual Disabilities, 37(3), e13213. https://doi.org/10.1111/jar.13213
 
-5. Modified Otago Exercise Programme adapted for intellectual and developmental disability — basis for the strength/balance intervention plans.
+5. Renfro M, Bainbridge DB and Smith ML (2016) Validation of Evidence-Based Fall Prevention Programs for Adults with Intellectual and/or Developmental Disorders: A Modified Otago Exercise Program. Front. Public Health 4:261. doi: 10.3389/fpubh.2016.00261
 
-6. Araujo, C. G. et al. (2022) — single-leg-stance (10-second) functional/health indicator, referenced by the BalanceVision scoring model.
+6. Araújo , C. G. S., de Souza e Silva, C. G., Laukkanen, J. A., Singh, M. A. F., Kunutsor, S. K., Myers, J., Franca, J. F., & Castro, C. L. (2022). Successful 10-second one-legged stance performance predicts survival in middle-aged and older individuals. British Journal of Sports Medicine, 56(17), 975-980. Article bjsports-2021-105360. https://doi.org/10.1136/bjsports-2021-105360
 
 7. **Source application system manuals** (data dictionaries transcribed in §5):
    - BalanceVision — System, Data & Analytical Manual · https://github.com/aaron-chen-angus/BalanceVision
