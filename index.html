@@ -236,6 +236,83 @@ tbody tr:hover td{background:var(--teal-lt)}
   .form-grid{grid-template-columns:1fr}
   .ob-steps{grid-template-columns:repeat(3,1fr)}
 }
+/* ═══ CYBER-PHYSICAL AI PAGE ═══════════════════════════════════════ */
+.cps-hero{background:linear-gradient(135deg,#0A3F3E 0%,#0C2426 100%);border-radius:var(--r-xl);padding:26px 30px;color:#fff;margin-bottom:20px;display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.cps-hero-text{flex:1;min-width:320px}
+.cps-eyebrow{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-mid);font-weight:700;margin-bottom:9px}
+.cps-hero-text h2{font-family:var(--serif);font-size:26px;font-weight:700;line-height:1.18;margin-bottom:9px}
+.cps-hero-text p{font-size:13px;color:rgba(255,255,255,.7);line-height:1.6;max-width:520px;margin-bottom:14px}
+.cps-hero-badges{display:flex;gap:8px;flex-wrap:wrap}
+.cps-hbadge{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);border-radius:20px;padding:5px 13px;font-size:11.5px;color:rgba(255,255,255,.88)}
+.cps-loop{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--r-lg);padding:18px 20px;display:flex;align-items:center;gap:8px;position:relative}
+.cps-loop-node{display:flex;flex-direction:column;align-items:center;gap:5px;padding:8px 6px;border-radius:12px;transition:all .3s;min-width:64px}
+.cps-loop-node.lit{background:var(--teal);box-shadow:0 0 18px rgba(63,169,167,.5)}
+.cln-ico{font-size:22px}
+.cln-label{font-size:10.5px;font-weight:600;color:rgba(255,255,255,.85)}
+.cps-loop-arrow{color:rgba(255,255,255,.3);font-size:16px}
+.cps-loop-return{position:absolute;bottom:5px;right:14px;font-size:10px;color:var(--gold);font-weight:600}
+
+.cps-tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:20px}
+.cps-tier{background:var(--card);border:1px solid var(--rule);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow-sm);display:flex;flex-direction:column}
+.cps-tier-head{padding:14px 18px;color:#fff;display:flex;align-items:center;gap:12px}
+.ct-icon{width:42px;height:42px;border-radius:11px;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.ct-num{font-size:10px;font-weight:700;letter-spacing:.06em;color:rgba(255,255,255,.75)}
+.ct-title{font-size:16px;font-weight:700;font-family:var(--serif)}
+.ct-chip{margin-left:auto;background:#fff;border-radius:14px;padding:4px 12px;font-size:11px;font-weight:700}
+.cps-tier:nth-child(1) .ct-chip{color:var(--teal)} .cps-tier:nth-child(2) .ct-chip{color:var(--clay)} .cps-tier:nth-child(3) .ct-chip{color:var(--teal)}
+.cps-tier-body{padding:16px 18px;flex:1;display:flex;flex-direction:column;gap:9px}
+.ct-row{display:flex;gap:10px;font-size:12px;line-height:1.45}
+.ct-k{flex-shrink:0;width:48px;font-weight:700;color:var(--teal);text-transform:uppercase;font-size:10px;letter-spacing:.03em;padding-top:1px}
+.ct-v{color:var(--slate)}
+.ct-feed{margin-top:6px;background:#0C2426;border-radius:12px;padding:12px 14px;color:#fff}
+.ct-feed-head{font-size:11px;color:rgba(255,255,255,.65);margin-bottom:9px;display:flex;align-items:center;gap:8px}
+.ct-live{display:inline-flex;align-items:center;gap:5px;color:var(--risk-lo);font-weight:700;font-size:10px}
+.ct-live i{width:7px;height:7px;border-radius:50%;background:#4ADE80;animation:pulse 1.4s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.ct-pose{height:70px;position:relative;display:flex;align-items:center;justify-content:center;gap:14px}
+.ct-pose .pdot{width:8px;height:8px;border-radius:50%;background:var(--teal-mid);position:absolute;transition:all .1s}
+.ct-posecanvas{width:100%;height:96px;display:block}
+.ct-radar{width:100%;height:60px;display:block}
+.ct-feed-stat{font-size:11px;color:rgba(255,255,255,.7);margin-top:8px;font-variant-numeric:tabular-nums}
+.ct-events{height:70px;overflow:hidden;font-size:11px;display:flex;flex-direction:column;gap:5px;justify-content:flex-end}
+.ct-event{background:rgba(255,255,255,.07);border-radius:6px;padding:4px 9px;color:rgba(255,255,255,.85);animation:slideup .4s ease}
+@keyframes slideup{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+.cps-fusion{background:#0C2426;border-radius:var(--r-lg);padding:20px 24px;margin-bottom:20px;display:flex;align-items:center;gap:24px;flex-wrap:wrap;box-shadow:var(--shadow-md)}
+.cps-fusion-left{display:flex;align-items:center;gap:14px;min-width:260px}
+.cps-fusion-icon{width:48px;height:48px;border-radius:12px;background:var(--teal);display:flex;align-items:center;justify-content:center;font-size:24px}
+.cps-fusion-title{font-size:16px;font-weight:700;color:#fff;font-family:var(--serif)}
+.cps-fusion-sub{font-size:12px;color:rgba(255,255,255,.62);margin-top:3px}
+.cps-fusion-sub code{background:rgba(63,169,167,.2);color:var(--teal-mid);padding:1px 6px;border-radius:4px;font-size:11px}
+.cps-fusion-flow{flex:1;display:flex;align-items:center;gap:14px;justify-content:flex-end;flex-wrap:wrap}
+.cff-in{display:flex;flex-direction:column;gap:5px}
+.cff-pill{background:rgba(255,255,255,.08);border-radius:14px;padding:4px 12px;font-size:11px;color:rgba(255,255,255,.8);font-weight:600;transition:all .3s}
+.cff-pill.active{background:var(--teal);color:#fff}
+.cff-arrow{color:rgba(255,255,255,.3);font-size:18px}
+.cff-engine{width:88px;height:88px;border-radius:50%;background:radial-gradient(circle,rgba(63,169,167,.25),rgba(14,124,123,.05));border:2px solid var(--teal-mid);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.cff-score{font-family:var(--serif);font-size:30px;font-weight:700;color:#fff;line-height:1}
+.cff-band{font-size:9px;color:var(--teal-mid);margin-top:2px}
+.cff-out{display:flex;flex-direction:column;gap:6px}
+.cff-out-item{font-size:11.5px;color:rgba(255,255,255,.85);font-weight:500}
+
+.cps-bottom{display:grid;grid-template-columns:1.3fr 1fr;gap:18px;margin-bottom:16px}
+@media(max-width:900px){.cps-bottom{grid-template-columns:1fr}.cps-tiers{grid-template-columns:1fr}}
+.cps-sec-title{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--faint);margin-bottom:14px;padding-bottom:7px;border-bottom:1px solid var(--rule)}
+.cps-principles,.cps-roadmap{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:20px 22px;box-shadow:var(--shadow-sm)}
+.cps-princ-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cps-princ{display:flex;gap:11px;align-items:flex-start}
+.cp-ico{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
+.cps-princ b{font-size:12.5px;color:var(--ink);display:block;margin-bottom:2px}
+.cps-princ span{font-size:11px;color:var(--mute);line-height:1.45}
+.cps-phase{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px;position:relative}
+.cps-phase:not(:last-child)::before{content:'';position:absolute;left:6px;top:16px;bottom:-14px;width:2px;background:var(--rule)}
+.cph-dot{width:14px;height:14px;border-radius:50%;background:var(--card);border:2px solid var(--ghost);flex-shrink:0;margin-top:2px;z-index:1}
+.cph-dot.done{background:var(--risk-lo);border-color:var(--risk-lo)}
+.cph-dot.active{background:var(--teal);border-color:var(--teal);box-shadow:0 0 0 4px rgba(14,124,123,.15)}
+.cps-phase b{font-size:12.5px;color:var(--ink);display:block;margin-bottom:1px}
+.cps-phase span{font-size:11px;color:var(--mute);line-height:1.4}
+.cps-disclaimer{font-size:11px;color:var(--faint);font-style:italic;text-align:center;padding:8px}
+
 </style>
 </head>
 <body>
@@ -266,6 +343,10 @@ tbody tr:hover td{background:var(--teal-lt)}
         <li><button onclick="nav('dashboard')" id="nav-dashboard"><span class="ico">📊</span> Dashboard</button></li>
         <li><button onclick="nav('monitoring')" id="nav-monitoring"><span class="ico">📈</span> Monitoring</button></li>
         <li><button onclick="nav('plans')" id="nav-plans"><span class="ico">🛡️</span> Prevention Plans</button></li>
+      </ul>
+      <div class="sb-section">Technology</div>
+      <ul class="sb-nav">
+        <li><button onclick="nav('cps')" id="nav-cps"><span class="ico">🔗</span> Cyber-Physical AI</button></li>
       </ul>
     </div>
     <div class="sb-footer">
@@ -402,6 +483,149 @@ tbody tr:hover td{background:var(--teal-lt)}
         </div>
         <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:15px" id="plans-grid"></div>
       </div>
+
+      <!-- CYBER-PHYSICAL AI -->
+      <div class="screen" id="screen-cps">
+        <!-- hero -->
+        <div class="cps-hero">
+          <div class="cps-hero-text">
+            <div class="cps-eyebrow">CYBER-PHYSICAL AI ARCHITECTURE</div>
+            <h2>One resident, three sensing tiers,<br>one on-device AI loop</h2>
+            <p>How the FalLess prototype connects to physical sensing during production — no cloud, no wearables, no stored video.</p>
+            <div class="cps-hero-badges">
+              <span class="cps-hbadge">🔒 Privacy-first</span>
+              <span class="cps-hbadge">⚡ Runs on the edge</span>
+              <span class="cps-hbadge">🔄 Closes the loop</span>
+            </div>
+          </div>
+          <div class="cps-loop" id="cpsLoop">
+            <div class="cps-loop-node" data-stage="0"><span class="cln-ico">🚶</span><span class="cln-label">Physical</span></div>
+            <div class="cps-loop-arrow">→</div>
+            <div class="cps-loop-node" data-stage="1"><span class="cln-ico">📡</span><span class="cln-label">Sense</span></div>
+            <div class="cps-loop-arrow">→</div>
+            <div class="cps-loop-node" data-stage="2"><span class="cln-ico">🧠</span><span class="cln-label">Reason</span></div>
+            <div class="cps-loop-arrow">→</div>
+            <div class="cps-loop-node" data-stage="3"><span class="cln-ico">🎯</span><span class="cln-label">Act</span></div>
+            <div class="cps-loop-return">↻ continuous</div>
+          </div>
+        </div>
+
+        <!-- three tiers -->
+        <div class="cps-tiers">
+          <!-- TIER 1 -->
+          <div class="cps-tier">
+            <div class="cps-tier-head" style="background:var(--teal)">
+              <div class="ct-icon">📱</div>
+              <div><div class="ct-num">TIER 1</div><div class="ct-title">Active Assessment</div></div>
+              <span class="ct-chip">Weekly</span>
+            </div>
+            <div class="cps-tier-body">
+              <div class="ct-row"><span class="ct-k">Device</span><span class="ct-v">iPad / tablet on stand or Computer-on-Wheels, staff-operated</span></div>
+              <div class="ct-row"><span class="ct-k">Edge AI</span><span class="ct-v">MediaPipe Pose on-device · 30+ FPS on CPU · frames discarded</span></div>
+              <div class="ct-row"><span class="ct-k">Feeds</span><span class="ct-v">The 4 gamified stations — balance, strength, reflex, attention</span></div>
+              <!-- live tablet feed -->
+              <div class="ct-feed">
+                <div class="ct-feed-head"><span class="ct-live"><i></i> LIVE</span> Tablet session — pose landmarks</div>
+                <canvas id="ctPose" class="ct-posecanvas" width="520" height="150"></canvas>
+                <div class="ct-feed-stat"><span id="ctFps">30</span> FPS · <span id="ctLandmarks">33</span> landmarks · <span style="color:var(--risk-lo)">on-device</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TIER 2 -->
+          <div class="cps-tier">
+            <div class="cps-tier-head" style="background:var(--clay)">
+              <div class="ct-icon">📡</div>
+              <div><div class="ct-num">TIER 2</div><div class="ct-title">Ambient Monitoring</div></div>
+              <span class="ct-chip">24/7</span>
+            </div>
+            <div class="cps-tier-body">
+              <div class="ct-row"><span class="ct-k">Device</span><span class="ct-v">Ceiling / wall mmWave radar or thermal sensors in living spaces</span></div>
+              <div class="ct-row"><span class="ct-k">Edge AI</span><span class="ct-v">Camera-free by physics · works in dark, through walls, in bathrooms</span></div>
+              <div class="ct-row"><span class="ct-k">Feeds</span><span class="ct-v">Continuous gait speed + fall detection — a leading indicator</span></div>
+              <!-- live radar feed -->
+              <div class="ct-feed">
+                <div class="ct-feed-head"><span class="ct-live"><i></i> LIVE</span> mmWave radar — gait waveform</div>
+                <canvas id="ctRadar" class="ct-radar" width="600" height="90"></canvas>
+                <div class="ct-feed-stat">Gait speed <span id="ctGait">0.82</span> m/s · <span id="ctFall" style="color:var(--risk-lo)">no fall detected</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TIER 3 -->
+          <div class="cps-tier">
+            <div class="cps-tier-head" style="background:var(--teal)">
+              <div class="ct-icon">📹</div>
+              <div><div class="ct-num">TIER 3</div><div class="ct-title">Environmental Context</div></div>
+              <span class="ct-chip">Optional</span>
+            </div>
+            <div class="cps-tier-body">
+              <div class="ct-row"><span class="ct-k">Device</span><span class="ct-v">Existing CCTV in corridors — edge-processed on-site</span></div>
+              <div class="ct-row"><span class="ct-k">Edge AI</span><span class="ct-v">Edge-only inference · frames never stored or transmitted</span></div>
+              <div class="ct-row"><span class="ct-k">Feeds</span><span class="ct-v">Hazard + route context; CV predicts falls in a 4-week window</span></div>
+              <!-- live cctv feed -->
+              <div class="ct-feed">
+                <div class="ct-feed-head"><span class="ct-live"><i></i> EDGE</span> CCTV events — anonymised only</div>
+                <div class="ct-events" id="ctEvents"></div>
+                <div class="ct-feed-stat">Frames processed on-site · <span style="color:var(--risk-lo)">nothing stored</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fusion engine -->
+        <div class="cps-fusion">
+          <div class="cps-fusion-left">
+            <div class="cps-fusion-icon">🧠</div>
+            <div>
+              <div class="cps-fusion-title">One AI Fusion Engine</div>
+              <div class="cps-fusion-sub"><code>residentId</code> links all three tiers → one explainable risk profile</div>
+            </div>
+          </div>
+          <div class="cps-fusion-flow">
+            <div class="cff-in">
+              <span class="cff-pill" id="cffT1">Tier 1 ●</span>
+              <span class="cff-pill" id="cffT2">Tier 2 ●</span>
+              <span class="cff-pill" id="cffT3">Tier 3 ●</span>
+            </div>
+            <div class="cff-arrow">→</div>
+            <div class="cff-engine" id="cffEngine">
+              <div class="cff-score" id="cffScore">—</div>
+              <div class="cff-band" id="cffBand">fusing…</div>
+            </div>
+            <div class="cff-arrow">→</div>
+            <div class="cff-out">
+              <span class="cff-out-item">🛡️ Risk score</span>
+              <span class="cff-out-item">🏋️ Personalised plan</span>
+              <span class="cff-out-item">🔄 Adaptive session</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- key principles + deployment -->
+        <div class="cps-bottom">
+          <div class="cps-principles">
+            <div class="cps-sec-title">Why this is genuinely Cyber-Physical AI</div>
+            <div class="cps-princ-grid">
+              <div class="cps-princ"><div class="cp-ico" style="background:var(--teal-lt)">🔒</div><div><b>Privacy-first</b><span>Stronger than any camera-only system — Tier 1 discards frames, Tier 2 is camera-free, Tier 3 is edge-only</span></div></div>
+              <div class="cps-princ"><div class="cp-ico" style="background:var(--lolt,#E3F1EA)">⚡</div><div><b>Runs on the edge</b><span>No cloud, no GPU server — pose models run on a tablet, even a Raspberry Pi 4</span></div></div>
+              <div class="cps-princ"><div class="cp-ico" style="background:var(--clay-lt)">📈</div><div><b>Continuous + proactive</b><span>Predicts risk from gait trends, not just detects falls after they happen</span></div></div>
+              <div class="cps-princ"><div class="cp-ico" style="background:var(--teal-lt)">🔄</div><div><b>Closes the loop</b><span>The risk profile physically adapts each resident's next session difficulty</span></div></div>
+            </div>
+          </div>
+          <div class="cps-roadmap">
+            <div class="cps-sec-title">Phased deployment</div>
+            <div class="cps-phase"><span class="cph-dot done"></span><div><b>Phase 0 — now</b><span>Front-end prototype, synthetic data (this demo)</span></div></div>
+            <div class="cps-phase"><span class="cph-dot active"></span><div><b>Phase 1 — Tier 1 live</b><span>Tablet/COW + on-device MediaPipe at Metta; ICC validation</span></div></div>
+            <div class="cps-phase"><span class="cph-dot"></span><div><b>Phase 2 — Tier 2</b><span>mmWave/thermal ambient monitoring in communal zones</span></div></div>
+            <div class="cps-phase"><span class="cph-dot"></span><div><b>Phase 3 — Fusion + adaptive</b><span>Three-tier fusion; model re-tuned on Metta cohort</span></div></div>
+            <div class="cps-phase"><span class="cph-dot"></span><div><b>Phase 4 — Tier 3</b><span>Edge CCTV context, consent-gated</span></div></div>
+          </div>
+        </div>
+
+        <div class="cps-disclaimer">Accuracy figures for mmWave (≈96–99%) and CV 4-week prediction are drawn from peer-reviewed trials (Nature Sci. Reports 2025 and others). This page is an illustrative simulation — sensor feeds shown are synthetic.</div>
+      </div>
+
     </div>
   </div>
 </div>
@@ -563,7 +787,8 @@ const SCREENS={
   residents:{t:'All Residents',s:'60 residents across Metta Welfare Association'},
   dashboard:{t:'Overview Dashboard',s:'Current assessment cycle · September 2026'},
   monitoring:{t:'Progress Monitoring',s:'Session activity, trends and trajectories'},
-  plans:{t:'Prevention Plans',s:'Active intervention plans across all residents'}
+  plans:{t:'Prevention Plans',s:'Active intervention plans across all residents'},
+  cps:{t:'Cyber-Physical AI',s:'Three-tier sensing architecture and edge-AI integration'}
 };
 function nav(id){
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
@@ -579,12 +804,14 @@ function nav(id){
   const chip=document.getElementById('patient-chip');
   if((id==='play'||id==='profile')&&current){chip.style.display='flex';document.getElementById('pc-av').style.background=current.color;document.getElementById('pc-av').textContent=current.initials;document.getElementById('pc-name').textContent=current.name;document.getElementById('pc-id').textContent=current.id;}
   else chip.style.display='none';
+  if(id!=='cps') stopCPS();      // pause simulation when leaving
   if(id==='play')renderPlay();
   if(id==='profile')renderProfile();
   if(id==='residents')renderResidents();
   if(id==='dashboard')initDashboard();
   if(id==='monitoring')initMonitoring();
   if(id==='plans')renderPlans();
+  if(id==='cps')startCPS();
   window.scrollTo(0,0);
 }
 
@@ -1000,9 +1227,208 @@ function renderPlans(){
 }
 
 // ════════════════════════════════════════════════════════════════════
-// TOAST + INIT
+// CYBER-PHYSICAL AI — live simulation
 // ════════════════════════════════════════════════════════════════════
-function toast(msg,type=''){const w=document.getElementById('toasts');const e=document.createElement('div');e.className='toast '+(type||'');e.innerHTML=`<span>${type==='success'?'✅':'ℹ️'}</span>${msg}`;w.appendChild(e);requestAnimationFrame(()=>requestAnimationFrame(()=>e.classList.add('show')));setTimeout(()=>{e.classList.remove('show');setTimeout(()=>e.remove(),300);},2600);}
+let cpsTimers=[], cpsRAF=null, cpsRadarT=0, cpsStage=0;
+
+function startCPS(){
+  stopCPS();
+  // 1. animate the loop nodes (Physical → Sense → Reason → Act)
+  const nodes=[...document.querySelectorAll('#cpsLoop .cps-loop-node')];
+  cpsStage=0;
+  const loopTick=()=>{
+    nodes.forEach((n,i)=>n.classList.toggle('lit',i===cpsStage));
+    cpsStage=(cpsStage+1)%nodes.length;
+  };
+  loopTick();
+  cpsTimers.push(setInterval(loopTick,900));
+
+  // 2. Tier 1 — anatomical MediaPipe pose skeleton (33 landmarks) doing a single-leg balance
+  const poseCv=document.getElementById('ctPose');
+  if(poseCv){
+    const ctx=poseCv.getContext('2d');
+    const W=poseCv.width, H=poseCv.height;
+
+    // MediaPipe Pose — 33 landmark indices
+    // 0 nose,1-6 eyes,7-8 ears,9-10 mouth,11-12 shoulders,13-14 elbows,15-16 wrists,
+    // 17-22 hands,23-24 hips,25-26 knees,27-28 ankles,29-32 feet
+    // Base pose (normalised 0..1), person balancing on RIGHT leg, LEFT leg raised, arms out.
+    const BASE={
+      0:[.50,.13],                                   // nose
+      1:[.485,.115],2:[.48,.115],3:[.475,.115],      // left eye (inner/center/outer)
+      4:[.515,.115],5:[.52,.115],6:[.525,.115],      // right eye
+      7:[.455,.13],8:[.545,.13],                     // ears
+      9:[.485,.155],10:[.515,.155],                  // mouth
+      11:[.41,.26],12:[.59,.26],                     // shoulders (L,R)
+      13:[.30,.34],14:[.70,.34],                     // elbows — arms out for balance
+      15:[.22,.40],16:[.78,.40],                     // wrists
+      17:[.20,.42],18:[.80,.42],                     // pinky
+      19:[.205,.43],20:[.795,.43],                   // index
+      21:[.215,.415],22:[.785,.415],                 // thumb
+      23:[.44,.52],24:[.56,.52],                     // hips
+      25:[.445,.68],26:[.60,.64],                    // knees — right(25) stance, left(26) raised & bent
+      27:[.45,.86],28:[.66,.72],                     // ankles — right down (stance), left raised
+      29:[.44,.90],30:[.65,.76],                     // heels
+      31:[.49,.90],32:[.70,.75],                     // foot index (toes)
+    };
+    // MediaPipe POSE_CONNECTIONS (the standard skeleton edges)
+    const EDGES=[
+      [11,12],[11,13],[13,15],[15,17],[15,19],[15,21],[17,19],
+      [12,14],[14,16],[16,18],[16,20],[16,22],[18,20],
+      [11,23],[12,24],[23,24],
+      [23,25],[25,27],[27,29],[27,31],[29,31],
+      [24,26],[26,28],[28,30],[28,32],[30,32],
+      // face outline (light)
+      [0,1],[1,2],[2,3],[3,7],[0,4],[4,5],[5,6],[6,8],[9,10],
+    ];
+    const FACE=new Set([0,1,2,3,4,5,6,7,8,9,10]);
+
+    let t=0;
+    const drawSkeleton=()=>{
+      t+=0.045;
+      ctx.clearRect(0,0,W,H);
+
+      // padding + scale so the figure sits nicely in the panel
+      const padY=0.06, scaleY=(1-padY*2);
+      // whole-body postural sway (what the balance station measures): slow lateral drift + micro corrections
+      const swayX = Math.sin(t*0.9)*0.022 + Math.sin(t*2.7)*0.006;   // mediolateral sway
+      const bob   = Math.sin(t*1.8)*0.008;                            // small vertical
+      // raised-leg wobble (the balancing effort)
+      const legWob= Math.sin(t*3.1)*0.03;
+
+      const pt=(idx)=>{
+        let [x,y]=BASE[idx];
+        // apply sway to everything; extra wobble to the raised (left) leg landmarks
+        let dx=swayX, dy=bob;
+        if([26,28,30,32].includes(idx)){ dx+=legWob*0.6; dy+=Math.cos(t*3.1)*0.012; }
+        if([13,15,17,19,21].includes(idx)){ dx-=Math.sin(t*2.2)*0.01; }  // left arm counter-balance
+        if([14,16,18,20,22].includes(idx)){ dx+=Math.sin(t*2.2)*0.01; }  // right arm counter-balance
+        const px=(x+dx)*W;
+        const py=(padY+(y+dy)*scaleY)*H;
+        return [px,py];
+      };
+
+      // draw edges
+      EDGES.forEach(([a,b])=>{
+        const face=FACE.has(a)&&FACE.has(b);
+        const [x1,y1]=pt(a),[x2,y2]=pt(b);
+        ctx.strokeStyle=face?'rgba(127,216,207,.35)':'rgba(63,169,167,.9)';
+        ctx.lineWidth=face?1:2.4;
+        ctx.lineCap='round';
+        ctx.beginPath();ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.stroke();
+      });
+
+      // draw landmark dots
+      for(let i=0;i<33;i++){
+        if(!BASE[i])continue;
+        const [px,py]=pt(i);
+        const face=FACE.has(i);
+        const r=face?1.6:(i===0?3:2.6);
+        ctx.fillStyle=face?'rgba(127,216,207,.7)':'#7FD8CF';
+        ctx.beginPath();ctx.arc(px,py,r,0,Math.PI*2);ctx.fill();
+      }
+
+      // ground line under the stance foot (visual anchor)
+      const [ax]=pt(29);
+      ctx.strokeStyle='rgba(255,255,255,.14)';ctx.lineWidth=1;
+      ctx.beginPath();ctx.moveTo(ax-40,(padY+0.92*scaleY)*H);ctx.lineTo(ax+40,(padY+0.92*scaleY)*H);ctx.stroke();
+
+      cpsRAF=requestAnimationFrame(drawSkeleton);
+    };
+    drawSkeleton();
+    cpsTimers.push(setInterval(()=>{
+      document.getElementById('ctFps').textContent=(28+Math.floor(Math.random()*6));
+    },700));
+  }
+
+  // 3. Tier 2 — mmWave radar waveform on canvas + gait/fall stats
+  const cv=document.getElementById('ctRadar');
+  if(cv){
+    const ctx=cv.getContext('2d');
+    const W=cv.width,H=cv.height,data=new Array(W).fill(H/2);
+    // gait-speed readout flicker
+    cpsTimers.push(setInterval(()=>{
+      const g=(0.62+Math.random()*0.5).toFixed(2);
+      document.getElementById('ctGait').textContent=g;
+    },1500));
+    // fall event flicker
+    cpsTimers.push(setInterval(()=>{
+      const el=document.getElementById('ctFall');
+      if(Math.random()<0.12){el.textContent='⚠ soft-fall flagged';el.style.color='#E07C63';
+        setTimeout(()=>{el.textContent='no fall detected';el.style.color='var(--risk-lo)';},1800);}
+    },3000));
+    startRadar(ctx,W,H,data);
+  }
+
+  // 4. Tier 3 — CCTV anonymised events stream
+  const ev=document.getElementById('ctEvents');
+  if(ev){
+    const EVENTS=['Corridor B · unsteady gait','Route 3 · footwear hazard','Day room · normal gait',
+      'Corridor A · slow transfer','Washroom route · clear','Block A · high activity',
+      'Corridor C · near-miss flagged','Route 1 · normal'];
+    const pushEvent=()=>{
+      const e=document.createElement('div');e.className='ct-event';
+      const t=new Date();const ts=t.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+      e.textContent=`${ts}  ·  ${EVENTS[rndInt(0,EVENTS.length-1)]}`;
+      ev.appendChild(e);
+      while(ev.children.length>4)ev.removeChild(ev.firstChild);
+    };
+    pushEvent();pushEvent();
+    cpsTimers.push(setInterval(pushEvent,2200));
+  }
+
+  // 5. Fusion engine — cycle tier pills + settle on a score
+  const pills=['cffT1','cffT2','cffT3'].map(id=>document.getElementById(id));
+  let pi=0;
+  cpsTimers.push(setInterval(()=>{
+    pills.forEach((p,i)=>p&&p.classList.toggle('active',i===pi));
+    pi=(pi+1)%3;
+  },700));
+  // fusion score settles to the currently-selected resident's score
+  const score=(current&&current.score)||54;
+  const band=score>=70?'High':score>=45?'Moderate':'Low';
+  const scoreEl=document.getElementById('cffScore'),bandEl=document.getElementById('cffBand');
+  if(scoreEl){
+    let v=0;const t0=performance.now();
+    const rampFn=(now)=>{
+      const p=Math.min(1,(now-t0)/1400);const e=1-Math.pow(1-p,3);
+      scoreEl.textContent=Math.round(score*e);
+      if(p<1)requestAnimationFrame(rampFn);
+      else{scoreEl.textContent=score;bandEl.textContent=band+' risk';}
+    };
+    requestAnimationFrame(rampFn);
+  }
+}
+
+// self-contained radar animator (kept separate to avoid RAF handle collision)
+let radarAnim=null;
+function startRadar(ctx,W,H,data){
+  let t=0, fallCd=rndInt(60,140);
+  const step=()=>{
+    t++; data.shift();
+    let v=H/2 + Math.sin(t/9)*14 + Math.sin(t/3.3)*6 + (Math.random()-0.5)*5;
+    fallCd--; let falling=false;
+    if(fallCd<0&&fallCd>-10){v=H/2+32;falling=true;}
+    if(fallCd<-45)fallCd=rndInt(120,240);
+    data.push(v);
+    ctx.clearRect(0,0,W,H);
+    ctx.strokeStyle='rgba(255,255,255,.08)';ctx.beginPath();ctx.moveTo(0,H/2);ctx.lineTo(W,H/2);ctx.stroke();
+    ctx.strokeStyle=falling?'#E07C63':'#3FA9A7';ctx.lineWidth=2;ctx.beginPath();
+    data.forEach((y,x)=>{x?ctx.lineTo(x,y):ctx.moveTo(x,y);});ctx.stroke();
+    radarAnim=requestAnimationFrame(step);
+  };
+  step();
+}
+// placeholder referenced above (kept as no-op to avoid errors)
+function rndInt(a,b){return Math.floor(Math.random()*(b-a+1))+a;}
+
+function stopCPS(){
+  cpsTimers.forEach(clearInterval);cpsTimers=[];
+  if(cpsRAF){cancelAnimationFrame(cpsRAF);cpsRAF=null;}
+  if(radarAnim){cancelAnimationFrame(radarAnim);radarAnim=null;}
+}
+
+
 
 // ════════════════════════════════════════════════════════════════════
 // SEAMLESS UX ENHANCEMENTS
@@ -1011,7 +1437,7 @@ function toast(msg,type=''){const w=document.getElementById('toasts');const e=do
 // ── 1. Deep-linking: sync screen (and selected resident) to the URL hash ──
 // so screens are shareable/bookmarkable on GitHub Pages, and the browser
 // Back/Forward buttons move between screens naturally.
-const VALID_SCREENS=['onboard','play','profile','residents','dashboard','monitoring','plans'];
+const VALID_SCREENS=['onboard','play','profile','residents','dashboard','monitoring','plans','cps'];
 let _navFromHash=false;
 const _navBase=nav;
 nav=function(id){
